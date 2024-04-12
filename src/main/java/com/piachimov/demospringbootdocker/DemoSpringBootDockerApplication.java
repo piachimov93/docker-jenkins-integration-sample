@@ -18,7 +18,6 @@ public class DemoSpringBootDockerApplication {
         return "Hello World";
     }
 
-    //Test
     @GetMapping("/test")
     public String getTest() {
         return "Test Hello World";
