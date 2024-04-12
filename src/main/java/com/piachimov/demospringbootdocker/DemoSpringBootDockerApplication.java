@@ -22,5 +22,4 @@ public class DemoSpringBootDockerApplication {
     public String getTest() {
         return "Test Hello World";
     }
-    //test
 }
