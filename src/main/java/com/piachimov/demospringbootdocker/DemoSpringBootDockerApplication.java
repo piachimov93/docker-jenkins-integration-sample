@@ -17,7 +17,7 @@ public class DemoSpringBootDockerApplication {
     public String getMessage() {
         return "Hello World";
     }
-
+//
     @GetMapping("/test")
     public String getTest() {
         return "Test Hello World";
