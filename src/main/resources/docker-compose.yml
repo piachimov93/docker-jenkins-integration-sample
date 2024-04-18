@@ -1,0 +1,14 @@
+version: "3"
+services:
+  piachimovmongo:
+    image: mongo:latest
+    container_name: "piachimovmongo"
+    ports:
+      - "27017:27017"
+  springboot-mongodb:
+    image: springboot-mongodb:1.0
+    container_name: "springboot-mongodb"
+    ports:
+      - "8089:8081"
+    links:
+      - piachimovmongo

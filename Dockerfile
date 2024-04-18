@@ -1,4 +1,4 @@
 FROM openjdk:17
-EXPOSE 8080
-COPY target/docker-jenkins-integration-sample.jar docker-jenkins-integration-sample.jar
-ENTRYPOINT ["java", "-jar", "/docker-jenkins-integration-sample.jar"]
+EXPOSE 8081
+COPY target/springboot-mongo-docker.jar springboot-mongo-docker.jar
+ENTRYPOINT ["java", "-jar", "/springboot-mongo-docker.jar"]
